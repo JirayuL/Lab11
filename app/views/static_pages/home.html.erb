@@ -1,8 +1,8 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
-<h1>Sample App</h1>
+<div class="center jumbotron">
 
-<p>
+<h1>Welcome to the Sample App</h1>
+
+<h2>
 
 This is the home page for the
 
@@ -10,19 +10,12 @@ This is the home page for the
 
 sample application.
 
-</p>
-<h1>Help</h1>
+</h2>
 
-<p>
+<%= link_to "Sign up now!", '/login', class: "btn btn-lg btn-primary" %>
 
-Get help on the Ruby on Rails Tutorial at the
+</div>
 
-<a href="http://www.railstutorial.org/help">Rails Tutorial help page</a>.
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
 
-To get help on this sample app, see the
-
-<a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
-
-book</a>.
-
-</p>
+'http://rubyonrails.org/' %>
