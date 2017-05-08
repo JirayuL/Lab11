@@ -3,26 +3,27 @@
 <h1>Log in</h1>
 
 <br>
-
+<div class="form-box">
 <h2>
-&emsp;&emsp;
-Email:
 
-<input>
+Email:
+&emsp;&emsp;
+<input name="Email" type="text" placeholder="Your email">
 </h2>
 
 <h2>
 
+<div class="password">
 Password:
-
-<input>
+<input type="password" id="passwordfield" placeholder="Your password">
+</div>
 </h2>
 <br>
 
-<%= link_to "Log in", '/home', class: "btn btn-lg btn-primary" %>
+<%= link_to "Log in", '/login', class: "btn btn-lg btn-primary" %>
 
 <h2>
 New user? <%= link_to "Sign up now!", '/login' %>
 <h2/>
-
+</div>
 </div>
