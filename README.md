@@ -1,4 +1,4 @@
-# READM by JirayuL
+# README by JirayuL
 
 The link is : https://mysterious-shelf-69182.herokuapp.com
 
